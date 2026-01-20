@@ -15,11 +15,13 @@ turns = 12
 
 while turns > 0:
     failed = 0
+    
     for char in random_word:
+        print("_", end=" ")
         if char in guesses:
             break
-        else:
-            break
+        
+        
     
     if failed == 0:
         break
